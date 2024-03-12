@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Calculator</title>
+        <style>
+            body {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: medium;
+            }
+            #operations{
+                margin-top: 2%;
+            }
+            .btnOperations{
+                padding: 1%;
+                font-weight: 900;
+                font-size: larger;
+                width: 4%;
+                height: 4%;
+                border: 2px solid grey;
+            }
+        </style>
+        <script>
+            
+        </script>
+    </head>
+    <body>
+        <h1> HumberCalc </h1>
+        <hr>
+        <form>
+            <label for="number1"> Enter Number 1 </label>
+            <input type="number" placeholder="Number1" id="number1">
+            <label for="number2"> Enter Number 2 </label>
+            <input type="number" placeholder="Number2" id="number2">
+            <br> 
+            <div id="operations"> 
+                Select Operation - <button id="btnAdd" class="btnOperations"> + </button>
+                <button id="btnMinus" class="btnOperations"> - </button>
+            </div>
+            <hr>
+            <div> 
+                <h3> Result - </h3>
+                <span id="result"> </span>
+            </div>
+        </form>
+    </body>
+</html>
